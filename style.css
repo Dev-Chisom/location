@@ -524,9 +524,9 @@ button:focus {
 }
 
 .day {
-  background-image: url(../assets/images/bg-image-daytime.jpg);
+  background-image: url(./assets/images/bg-image-daytime.jpg);
 }
 
 .night {
-  background-image: url(../assets/images/bg-image-nighttime.jpg);
+  background-image: url(./assets/images/bg-image-nighttime.jpg);
 }
