@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock App</title>
+</head>
+<body>
+    <div class="background"></div>
+    <main class="top-part">
+        <section class="qoute-wrapper">
+            <div class="quote-content">
+                <q class="quote"></q>
+                <h2 class="author"></h2>
+            </div>
+        </section>
+            <!-- <button class="refresh">
+                <i class="fas fa-sync-alt"></i>
+            </button> -->
+            <section class="current">
+                <div class="current-wrapper">
+                    <img alt="icon" class="icon">
+                    <h2 class="greeting"></h2><span> it's currently</span>
+                  </div>
+                <div class="current-time">
+                    <div class="time-wrapper">
+                        <div class="wrapper">
+                          <h2 class="time"></h2>
+                        <h2 class="period"></h2>
+                        </div>
+                        <div class="standard-time">
+                            
+                            <p class="region"></p>
+                        </div>
+                    </div>
+                    <h3 class="current-location">in</h3>
+                </div>
+           
+                <button class="expand">More<img src="./assets/images/icon-arrow-up.svg" alt="arrow icon" aria-hidden="true" class="arrow">
+                </button>
+            </section>
+   
+    </main>
+    <article class="details">
+        <ul class="details__contents">
+          <li class="details__region info">
+            <h4>Current timezone</h4>
+            <p id="timezone"></p>
+          </li>
+          <li class="details__day info">
+            <h4>Day of the year</h4>
+            <p id="year-day"></p>
+          </li>
+          <li class="details__week-day info">
+            <h4>Day of the week</h4>
+            <p id="week-day"></p>
+          </li>
+          <li class="details__week-number info">
+            <h4>Week number</h4>
+            <p id="week-number"></p>
+          </li>
+        </ul>
+      </article>
+
+    <script src="main.js"></script>
+</body>
+</html>
